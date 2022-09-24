@@ -99,7 +99,7 @@ class BlogAdminController extends Controller
      */
     public function show($id)
     {
-        //
+         //
     }
 
     /**
