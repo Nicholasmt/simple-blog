@@ -1,0 +1,418 @@
+  .links:hover
+    {
+     background: #d99b3c;
+     height: 87%;
+     width: 30%;
+     border-bottom: 3px solid white;
+     color:white;
+    }
+    .links
+    {
+      background:white;  
+      color:#125b9e;
+      border:none;
+      height: 80%;
+      width: 30%;
+      font-weight: bolder;
+     }
+    .form_side
+      {
+          background: #125b9e;
+          color: aliceblue;
+           height: 420px
+      }
+
+    .fix-center{
+          text-align: center;
+      }
+
+     .logo_side{
+           height: 420px;
+           background: #d99b3c;
+           color: white;
+    }
+
+    .btn-primary{
+          background: aliceblue;
+          color: #125b9e;
+      }
+      .btn-primary:hover{
+          background: #d99b3c;
+          color: white;
+      }
+      .responsive
+      {
+           padding: 20px;
+           margin-left: -8%;
+      }
+      .btn-link{
+          color: aliceblue;
+          text-decoration-line: none;
+      }
+
+      .btn-link:hover{
+          color: #d99b3c;
+          text-decoration-line: none;
+      }
+      .card-body{
+          margin-top: 10%;
+      }
+
+      .logo{
+          margin-top: 13%;
+      }
+      .text-center
+      {
+        text-align:center;
+        padding:15px;
+        color:white;
+      }
+      .link-hover:hover
+      {
+        color:#d99b3c;
+      }
+       .py-4
+       {
+         background-position: center; 
+         background-repeat: no-repeat;  
+         background-size: cover;
+         background-image:  url('/assets/image/ofice_2.jpg');
+       } 
+       
+       
+  /* top nav Starts here   */
+  
+  .top-nav-color
+  {
+     color:#125b9e;
+  }
+
+  .top-nav-color:hover
+  {
+     color:#d99b3c;
+  }
+   /* top nav ends here */
+
+
+  .img_2{
+    width: 100%;
+}
+.text-logo-1{
+    font-size: 15px;
+}
+.logo_img_2{
+    width: 100%;
+}
+.text-font_2{
+    margin-top: 10%;
+}
+
+.link-margin{
+  margin-left:70%;
+}
+ 
+ .modal-bg
+ {
+  background: #125b9e;
+  border-right: 4px solid #d99b3c;
+ }
+
+ .close-tab{
+   background:none;
+   border:none;
+   font-size:20px;
+   font-weight: bolder;
+   
+ }
+ .close-tab:hover
+ {
+     color: #d99b3c;
+
+ }
+
+ .text-capitalize
+ {
+   color: #d99b3c;
+  text-transform:uppercase;
+  font-weight: bolder;
+ }
+
+ li.nav-header
+ {
+   padding:16px;
+
+ }
+ .text-padding{
+     font-size: 20px;
+     padding: 20px;
+     color: #125b9e;
+ }
+ 
+ .text-align
+ {
+  color: #125b9e;
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+ }
+
+ .red
+ {
+  color:rgb(202, 17, 17);
+ }
+ .text-style{
+  font-style: italic;
+  text-transform: lowercase;
+  font-weight: 200;
+
+ }
+ .checkbox{
+  height: 20px;
+  width: 20px;
+ }
+ .text-line{
+  font-size:20px;
+ 
+  color: #d99b3c;
+  padding: 20px;
+ }
+ .text-header{
+  font-size: 20px;
+  color: #125b9e;
+  padding: 20px;
+ 
+ }
+ .label_primary{
+ background: #125b9e;
+ padding:3px 9px 3px 9px;
+ color: white;
+ border-radius: 5px;
+ }
+
+ .label_secondary{
+  background: #d99b3c;
+  padding:3px 9px 3px 9px;
+  color: white;
+  border-radius: 5px;
+  }
+  .text_center
+  {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .table-content
+  {
+    font-size:20px;
+    font-weight:400;
+  }
+ .padding
+  {
+     padding: 5px;;
+  }
+   .gray_bg{
+    background-color: #f3f3f4 !important;
+    padding-bottom: 20px;
+   }
+
+  /* desktop view */
+  @media (min-width:1024px)
+  {
+    .responsive
+    {
+     width: 80%;
+    }
+
+    .box-panel
+    {
+      width: 100%;
+    }
+    .py-4
+    {
+      height: 100%;
+      margin-top:-2%;
+    }
+    .input-box
+     {
+        margin-left: 45%;
+        margin-top: -1%;
+     }
+     .input-box2
+     {
+        margin-left: 20%;
+        margin-top: -1%;
+     }
+    .btn-button
+    {
+      margin-top: -1%;
+      margin-left: 40%;
+    }
+
+    .select-box
+    {
+    height: 30px;
+    width: 150px;
+    }
+
+    .box-padding
+    {
+      padding: 0px;
+    }
+    .text-padding
+    {
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
+    
+  }
+
+  /* tablet view */
+  @media(min-width:768px) and (max-width:1024px)
+    {
+      .box-panel
+        {
+          padding: 10px;
+          width: 100%;
+        }
+        .py-4
+        {
+          height: 200%;
+          margin-top:-3%;
+        }
+        .nav-fit
+        {
+          margin-left: 1%;
+        }
+         .nav-fit_2
+         {
+           margin-left: 0%;
+         }
+         .sidebar
+         {
+          margin-left: -8%;
+         }
+         .tabview
+         {
+           margin-left: 45%;
+         }
+         
+         .input-box
+         {
+           margin-left: 70%;
+         }
+         .input-box2
+         {
+           margin-left: 70%;
+         }
+         .btn-button
+          {
+            margin-top: 30%;
+            margin-left: 50%;
+             
+          }
+          .select-box
+          {
+          height: 30px;
+          width: 150px;
+          }
+          .text-style
+          {
+            font-size:13px;
+            color: gray;
+            font-weight: bold;
+          }
+
+          
+           
+    }
+     /* mobile view */
+  @media(min-width: 320px) and (max-width: 768px)
+  {
+    .box-panel
+      {
+        width: 100%;
+        padding: 10px;
+      }
+      .responsive
+      {
+           width: 90%;
+      }
+      .py-4
+      {
+      height: 200%;
+      margin-top: -8%;
+      }
+      .links
+      {
+        height: 65%;
+        width: 20%;
+      }
+      .links:hover
+      {
+        height: 75%;
+        width: 20%;
+      }
+       .nav-fit
+     {
+       margin-left: 3%;
+     }
+      .nav-fit_2
+      {
+        margin-left: 44%;
+      }
+      .sidebar
+      {
+        margin-left: -5%;
+      }
+      .btn-button
+    {
+      margin-top: 1%;
+    }
+    .select-box
+    {
+    height: 30px;
+    width: 150px;
+    }
+    .logo-element
+    {
+      width: 90%;
+      margin-left: 6%;
+      
+    }
+    .text-logo-1
+    {
+      font-size:13px;
+    }
+     
+
+  }
+    /* mobile landscape view */
+  /* @media(min-width:480px) and (max-width:768px) and (orientation: landscape)
+  {
+    .box-panel
+    {
+      width: 100%;
+      padding: 10px;
+    }
+    .py-4
+    {
+    height: 250%;
+    margin-top:-4.5%;
+    }
+    .links
+    {
+      height: 65%;
+      width: 20%;
+    }
+    .links:hover
+    {
+      height: 75%;
+      width: 20%;
+    }
+  } */
+
+
+  
+ 
