@@ -64,7 +64,7 @@ class BlogAdminController extends Controller
                     BlogPost::create(['title'=>$request->title,
                                            'content'=>$content,
                                             'admin_id'=>$id
-                                       ]);
+                                    ]);
 
                       return back()->with('success','Post Created Successfully');
                    fclose($handle);
